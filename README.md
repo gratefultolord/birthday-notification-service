@@ -45,7 +45,7 @@ birthday-notification-service/
    cd birthday-notification-service
 2. Установите зависимости:
    ```sh
-   go mod download
+   go mod tidy
 3. Создайте файл .env в корне проекта и добавьте переменные окружения:
    ```sh
    TELEGRAM_BOT_TOKEN=your_telegram_bot_token
